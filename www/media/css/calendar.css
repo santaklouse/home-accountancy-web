@@ -1,0 +1,214 @@
+
+div#calendar-container {
+    min-height: 300px;
+    height: 100%;
+
+}
+div#calendar-container img.loading_icon {
+    position: relative;
+    margin: 4% 38%;
+}
+
+table.calendar {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: inherit;
+}
+
+table.calendar img.loading_icon{
+     margin: 0 !important;
+}
+
+table.calendar th {
+    background: none repeat scroll 0 0 #CFCFCF;
+    border: 0 none;
+    font-weight: 200;
+    text-align: center;
+    text-shadow: 1px 1px 2px #FFFFFF;
+}
+
+table.calendar td {
+    cursor: default;
+    text-align: left;
+    border: 1px solid #CCCCCC;
+    vertical-align: text-top;
+    height: 80px;
+    white-space: pre; /* CSS2 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP printers */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap: break-word; /* IE */
+}
+
+table.calendar td:hover {
+    background-color: #FFDB8F !important;
+}
+
+table.calendar td.today {
+    background-color: #FFDB8F !important;
+}
+
+table.calendar td.weekends {
+    background-color: #E4EBF6;
+}
+/*weekend*/
+table.calendar td#special-day-1 {
+    background: url(../img/icons/text2985.png) no-repeat scroll center center #E4EBF6;
+}
+
+/*holiday*/
+table.calendar td#special-day-2 {
+    background: url(../img/icons/text2986.png) no-repeat scroll center center #E4EBF6;
+}
+
+ul.event-list {
+    padding: 0px;
+    margin: 0 0 0 0 ;
+    position: relative;
+    left: 3px;
+}
+
+ul.event-list li {
+    margin: 5px auto;
+}
+
+ul.event-list li.todo {
+    background: url(../img/icons/todo.png) no-repeat 0 1px transparent;
+    padding: 0 0 0 20px;
+}
+
+ul.event-list li.event {
+    background: url(../img/icons/calendar.png) no-repeat 0 1px transparent;
+    padding: 0 0 0 20px;
+}
+
+ul.event-list li.special_day {
+    background: url(../../img/icons/special-day.png) no-repeat 0 1px transparent;
+    padding: 0 0 0 20px;
+}
+
+table.calendar td li span.actions {
+    margin: 2px 0 0 2px !important;
+}
+
+table.calendar td span.actions {
+    margin: 0px 0 0 5px !important;
+    padding: 0 !important;
+}
+
+table.calendar a,
+ul.event-list a {
+    text-decoration: none;
+}
+
+table.calendar a.event_edit:hover  {
+    text-decoration: underline;
+}
+
+table.calendar td div.date {
+    position: relative;
+    top: 1px;
+    right: 2px;
+    float: right;
+}
+
+table.calendar td.lastmonth,
+table.calendar td.nextmonth {
+    background-color: #9E9E9E !important;
+    color: #FFFFFF !important;
+    font-weight: 800;
+}
+
+table.calendar caption {
+    height: 40px;
+    line-height: 30px;
+    padding:.2em 0;
+    behavior: url("../../media/css/PIE.htc");
+    background: linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    -pie-background: linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65) !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+table.calendar caption a {
+    text-decoration: none;
+    height: 20px !important;
+    width: 23px !important;
+    display: block;
+}
+
+table.calendar caption span {
+    behavior: url("../media/css/PIE.htc");
+    height: 20px !important;
+    width: 27px !important;
+    border: 1px solid #A3A0A3;
+
+    line-height: 19px;
+    cursor: pointer;
+    -pie-background: linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%) !important;
+    background: linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+}
+
+table.calendar caption span.prev_month {
+    border-radius: 5px 0 0 5px;
+    float: left;
+    margin: 2px 0 0 20px;
+    padding: 0 3px 0 4px;
+}
+
+table.calendar caption span:hover {
+    border: 1px solid #212121 !important;
+}
+
+table.calendar caption span.next_month {
+    border-radius: 0 5px 5px 0;
+    float: right;
+    padding: 0 2px 0 6px;
+    margin: 2px 20px 0 0;
+}
+
+table.calendar caption a.prev_month {
+    background: url(../images/icons/calendar/ui-icon-circle-triangle-w.png) no-repeat scroll center center transparent !important;
+}
+a.remove_events {
+    /*display:block;*/
+    position: relative;
+}
+table.calendar caption a.next_month {
+    background: url(../images/icons/calendar/ui-icon-circle-triangle-e.png) no-repeat scroll center center transparent !important;
+}
+.detailed_events_dialog ul {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.detailed_events_dialog li div.text {
+    width: 90%;
+}
+
+.detailed_events_dialog li span.actions {
+    display: block;
+    position: relative;
+    float: right;
+}
+
+#calendar-tab {
+    margin-bottom: 10px;
+}
+
+#today-label {
+    margin-left: 2px;
+}

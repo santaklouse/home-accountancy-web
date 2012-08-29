@@ -1,0 +1,46 @@
+body {
+
+ min-height: 340px;
+    background: rgb(215, 215, 215);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+}
+
+.navbar-inner{
+  border-radius: 0px ;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/* coorection bootstrap styles */
+
+body > .navbar .brand {
+padding-right: 0;
+padding-left: 0;
+margin-left: 20px;
+float: left;
+font-weight: bold;
+color: black;
+text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+-webkit-transition: all .2s linear;
+-moz-transition: all .2s linear;
+transition: all .2s linear;
+}
+
+body > .navbar .brand.current {
+    color: #ffffff;
+}

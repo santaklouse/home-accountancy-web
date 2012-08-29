@@ -1,0 +1,791 @@
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
+.ui-widget-content { background: none; color: #222222 !important; border: none;}
+.ui-datepicker-title{color:#222 !important;}
+.ui-widget-content a { color: #222222; }
+
+.ui-priority-secondary{
+    opacity: 1 !important;
+}
+.ui-widget-header a { color: #222222; }
+.ui-widget-header{
+    border:none !important;
+}
+.ui-jqgrid .ui-state-default,.ui-jqgrid .ui-widget-header .ui-state-default {
+    -moz-user-select: -moz-none;
+    background-color: #FF8400 !important;
+    background-repeat: repeat-x !important;
+    border-right: 1px solid #FFFFFF !important;
+    color: #F6F6F6 !important;
+    empty-cells: show;
+    font-weight: normal !important;
+    line-height: normal;
+    margin: 0;
+    overflow: hidden;
+    padding: 2px 0;
+    text-align: center;
+}
+
+.ui-dialog-titlebar {
+    background: linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+    background: -o-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+    background: -moz-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+    background: -webkit-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+    background: -ms-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+    -pie-background: linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+    color: #fff;
+    border-top: 1px solid #FF8400 !important;
+    height: 17px !important;
+    behavior: url("../../media/css/PIE.htc");
+}
+
+.ui-pseudo-dialog .ui-dialog-titlebar {
+    background-image: linear-gradient(bottom, #FF3C00 , #FF9100);
+    background-image: -o-linear-gradient(bottom, #FF3C00 , #FF9100);
+    background-image: -moz-linear-gradient(bottom, #FF3C00 , #FF9100);
+    background-image: -webkit-linear-gradient(bottom, #FF3C00 , #FF9100);
+    background-image: -ms-linear-gradient(bottom, #FF3C00, #FF9100);
+    -pie-background: linear-gradient(top, #FF3C00, #FF9100);
+    /*border-top: 1px solid #A6A6A6 !important;*/
+    height: 14px !important;
+    behavior: url("../../media/css/PIE.htc");
+}
+
+.ui-icon-closethick{
+  background: url(../../img/dialog/ui-dialog-close.png) no-repeat 0 0 transparent !important;
+}
+
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555; text-decoration: none; }
+/*.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999; background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }*/
+.ui-state-hover{background:innerhit !important}
+/*.ui-state-hover a, .ui-state-hover a:hover { color: #212121; text-decoration: none; }*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa; background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121; text-decoration: none; }
+/*.ui-widget :active { outline: none; }
+
+ Interaction Cues
+----------------------------------*/
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+/*      border: 1px solid #fbcb09;
+      background: #fdf5ce url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; */
+    font-weight: bold;
+    color: #c77405;
+    background: #ffdaaa;
+}
+
+
+/*.ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }*/
+.ui-state-error, .ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+    border: 1px solid #cd0a0a;
+    background: #fef1ec url(images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
+    color: #cd0a0a;
+}
+
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+    color: #cd0a0a;
+}
+
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+    color: #cd0a0a;
+}
+
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+     background: #FFF5EA;
+     font-weight: normal;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight  {
+/*     background-image: url("../../img/grid/sel.png") !important; */
+/*    background-color:#FFDB8F !important;
+    background-position: 0 0;
+    background-repeat: repeat-x !important;*/
+    background: #ffdebb;
+    height:20px;
+}
+
+
+.ui-widget-header .ui-icon {background-image: url(images/ui-icons_222222_256x240.png); }
+.ui-state-default .ui-icon { background-image: url(images/ui-icons_888888_256x240.png); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(images/ui-icons_454545_256x240.png); }
+.ui-state-active .ui-icon {background-image: url(images/ui-icons_454545_256x240.png); }
+.ui-state-highlight .ui-icon {background-image: url(images/ui-icons_2e83ff_256x240.png); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_cd0a0a_256x240.png); }
+.ui-icon-seek-next {
+    background:url("../../img/ar_right_dis.gif") no-repeat !important;
+}
+
+.ui-icon-seek-prev {
+background:url("../../img/ar_left_dis.gif") no-repeat !important;
+}
+.ui-icon-seek-end {
+    background:url("../../img/ar_right_abs_dis.gif") no-repeat !important;
+}
+.ui-icon-seek-first {
+    background:url("../../img/ar_left_abs_dis.gif") no-repeat !important;
+}
+.ui-widget-overlay { background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
+.ui-widget-shadow {
+    behavior: url("../../media/css/PIE.htc");
+    margin: -8px 0 0 -8px;
+    padding: 8px;
+    background: #aaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+    opacity: .30;
+    filter: Alpha(Opacity=30);
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.ui-resizable {
+    position: relative;
+}
+
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}
+
+
+.ui-selectable-helper { position: absolute; z-index: 100; border:1px dotted black; }
+.ui-accordion { width: 100%; }
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+.ui-accordion-icons .ui-accordion-header a { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+
+.ui-button-icon-only { width: 2.2em; }
+button.ui-button-icon-only { width: 2.4em; }
+.ui-button-icons-only { width: 3.4em; }
+button.ui-button-icons-only { width: 3.7em; }
+
+
+.ui-button .ui-button-text { display: block; line-height: 1.4; }
+.ui-button-text-only .ui-button-text { padding: .4em 1em;}
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
+.ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
+.ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+
+input.ui-button { padding: .4em 1em; }
+
+.ui-button-icon-only .ui-icon, .ui-button-text-icon-primary .ui-icon, .ui-button-text-icon-secondary .ui-icon, .ui-button-text-icons .ui-icon, .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+.ui-button-icon-only .ui-icon { left: 50%; margin-left: -8px; }
+.ui-button-text-icon-primary .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary { left: .5em; }
+.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+.ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+
+.ui-buttonset { margin-right: 7px; }
+.ui-buttonset .ui-button { margin-left: 0; margin-right: -.3em; }
+
+
+button.ui-button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.ui-state-hover a,
+.ui-state-hover a:hover {
+    color: #c77405;
+    text-decoration: underline;
+}
+
+.ui-dialog table.account-settings .row {
+    margin: 2px 10px 0px 10px;
+}
+
+.ui-dialog .ui-dialog-titlebar,
+.ui-pseudo-dialog .ui-dialog-titlebar {
+    padding: 3px 0 8px 13px;
+    position: relative;
+    height:13px;
+}
+
+.ui-dialog .ui-dialog-title,
+.ui-pseudo-dialog .ui-dialog-title{
+    float: left;
+    margin: .1em 16px .1em 0;
+    line-height: 17px;
+}
+
+.ui-pseudo-dialog .ui-dialog-title {
+    line-height: 14px;
+}
+
+.ui-pseudo-dialog .ui-dialog-titlebar img {
+    float: left;
+    margin: 3px 3px 0 0;
+}
+
+.ui-dialog .ui-dialog-titlebar-close{
+    position: absolute;
+    top: 50%;
+    background-color: #4A4A4A;
+    border: 0 none !important;
+    height: 22px;
+    margin: -14px 0 0;
+    padding: 2px;
+    right: 0.1em;
+    width: 26px;
+}
+
+.ui-pseudo-dialog .ui-dialog-titlebar-close,
+.ui-pseudo-dialog .ui-dialog-titlebar-minimize,
+.ui-pseudo-dialog .ui-dialog-titlebar-configure,
+.ui-pseudo-dialog .ui-dialog-titlebar-help {
+    float: right;
+    top: 50%;
+    width: 19px;
+    margin: -8px 6px 0 0;
+    *margin: -14px  6px 0 0 !important;
+    height: 18px;
+    position: relative;
+    border: 1px solid #000000 !important;
+}
+
+
+
+.ui-pseudo-dialog .ui-dialog-titlebar a {
+    background-image: linear-gradient(bottom, #1F1F1F 51%, #474647 85%, #A6A6A6 100%);
+    background-image: -o-linear-gradient(bottom, #1F1F1F 51%, #474647 85%, #A6A6A6 100%);
+    background-image: -moz-linear-gradient(bottom, #1F1F1F 51%, #474647 85%, #A6A6A6 100%);
+    background-image: -webkit-linear-gradient(bottom, #1F1F1F 51%, #474647 85%, #A6A6A6 100%);
+    background-image: -ms-linear-gradient(bottom, #1F1F1F 51%, #474647 85%, #A6A6A6 100%);
+    -pie-background: linear-gradient(bottom, #1F1F1F 51%, #474647 85%, #A6A6A6 100%);
+    behavior: url("../../media/css/PIE.htc");
+}
+
+@media not screen and (1) { /** Opera **/
+    .ui-pseudo-dialog .ui-dialog-titlebar-minimize,
+    .ui-pseudo-dialog .ui-dialog-titlebar-close,
+    .ui-pseudo-dialog .ui-dialog-titlebar-configure,
+    .ui-pseudo-dialog .ui-dialog-titlebar-help{
+        margin: -14px  6px 0 0 !important;
+    }
+}
+.ui-dialog .ui-dialog-titlebar-close span{
+    display: block;
+    margin: 3px 3px 3px 5px;
+}
+
+.ui-pseudo-dialog .ui-dialog-titlebar-close span,
+.ui-pseudo-dialog .ui-dialog-titlebar span {
+    display: block;
+    margin: 1px;
+}
+.ui-pseudo-dialog .ui-dialog-titlebar span {
+    max-height: 16px;
+    overflow: hidden;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover,
+.ui-dialog .ui-dialog-titlebar-close:focus {
+  border: none !important; /*1px solid #A6A6A6 !important;*/
+  background: #807b7b !important;
+}
+
+.ui-icon-configure {
+    background: url("../../img/icons/configure.png") no-repeat scroll center right transparent !important;
+}
+.ui-icon-minimize {
+     /*background: url("../../img/icons/minimize.png") no-repeat scroll 1px center transparent !important;*/
+    background: url("../../images/icons/minimize.png") no-repeat scroll 5px center transparent !important;
+}
+.ui-icon-help {
+     /*background: url("../../img/icons/minimize.png") no-repeat scroll 1px center transparent !important;*/
+    background: url("../../images/icons/help.png") no-repeat scroll 5px center transparent !important;
+}
+.ui-icon-miximize {
+    background: url("../../images/icons/maximize.png") no-repeat scroll 5px center transparent !important;
+}
+.ui-pseudo-dialog .ui-dialog-titlebar a:hover,
+.ui-pseudo-dialog .ui-dialog-titlebar a:focus {
+  border: 1px solid #A6A6A6 !important;
+  background-image: linear-gradient(bottom, #A6A6A6 0%, #474647 14%, #1F1F1F 54%);
+  background-image: -o-linear-gradient(bottom, #A6A6A6 0%, #474647 14%, #1F1F1F 54%);
+  background-image: -moz-linear-gradient(bottom, #A6A6A6 0%, #474647 14%, #1F1F1F 54%);
+  background-image: -webkit-linear-gradient(bottom, #A6A6A6 0%, #474647 14%, #1F1F1F 54%);
+  background-image: -ms-linear-gradient(bottom, #A6A6A6 0%, #474647 14%, #1F1F1F 54%);
+  behavior: url("../media/css/PIE.htc");
+}
+
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    padding: .5em 1em;
+/*     overflow: auto; */
+    overflow: hidden;
+    zoom: 1;
+    background: #EAE8E8;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    text-align: left;
+    border-width: 1px 0 0 0;
+    background: #EAE8E8;
+    margin: 0 0 0 0;
+    padding: .3em 1em .5em .4em;
+
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: right;
+    position:relative;
+}
+
+.ui-dialog .ui-dialog-buttonpane button,
+.ui-dialog-buttonpane button,
+button.ui-button {
+    text-align: center;
+    position: relative;
+    width: auto;
+    color:black !important;
+    text-transform:uppercase;
+    padding: 0 !important;
+    margin: .5em .4em .5em 0;
+    cursor: pointer;
+    font-weight: 900 !important;
+    filter: Shadow(Color=#FFFFFF, Direction=90, Strength=2);
+    text-shadow: #FFFFFF 1px 1px 2px;
+    border: 1px solid #9C9C9C !important;
+    behavior: url("../../media/css/PIE.htc");
+    background: linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
+    background: -o-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
+    background: -moz-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
+    background: -webkit-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
+    background: -ms-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
+    -pie-background: linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
+}
+
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+.ui-slider { position: relative; text-align: left; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+.ui-slider-horizontal { height: .8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.ui-slider-vertical { width: .8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+.ui-slider-vertical .ui-slider-range-max { top: 0; }
+
+.ui-tabs { position: relative; padding: .2em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    background:none;
+    position:relative;
+}
+
+.ui-tabs .ui-tabs-nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 1px;
+  margin: 0 .2em 1px 0;
+  margin-bottom: 0px\0/;
+  border-bottom: 0 !important;
+  padding: 0;
+  white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    border-color: #4FA43A !important;
+    background-image: linear-gradient(bottom, #FF3C00 , #FF9100) !important;
+    background-image: -o-linear-gradient(bottom, #FF3C00 , #FF9100) !important;
+    background-image: -moz-linear-gradient(bottom, #FF3C00 , #FF9100) !important;
+    background-image: -webkit-linear-gradient(bottom, #FF3C00 , #FF9100) !important;
+    background-image: -ms-linear-gradient(bottom, #FF3C00, #FF9100) !important;
+    -pie-background: linear-gradient(bottom, #FF3C00, #FF9100) !important;
+    behavior: url("../../media/css/PIE.htc");
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    cursor: text;
+    outline:none;
+    filter: Shadow(Color=#000000, Direction=90, Strength=2);
+    text-shadow: #000000 1px 1px 2px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+    cursor: pointer;
+    line-height: 12px;
+} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+
+.ui-tabs .ui-tabs-nav .ui-state-default {
+    border: 1px solid #D1D1D1 !important;
+    border-bottom-width: 0 !important;
+    background: linear-gradient(bottom, #C7C7C7 27%, #EBE7E4 62%, #F0EFED 78%) repeat scroll 0 0 transparent !important;
+    background: -o-linear-gradient(bottom, #C7C7C7 27%, #EBE7E4 62%, #F0EFED 78%) repeat scroll 0 0 transparent !important;
+    background: -moz-linear-gradient(bottom, #C7C7C7 27%, #EBE7E4 62%, #F0EFED 78%) repeat scroll 0 0 transparent !important;
+    background: -webkit-linear-gradient(bottom, #C7C7C7 27%, #EBE7E4 62%, #F0EFED 78%) repeat scroll 0 0 transparent !important;
+    background: -ms-linear-gradient(bottom, #C7C7C7 27%, #EBE7E4 62%, #F0EFED 78%) repeat scroll 0 0 transparent !important;
+    -pie-background: linear-gradient(bottom, #C7C7C7 27%, #EBE7E4 62%, #F0EFED 78%) !important;
+    behavior: url("../../media/css/PIE.htc");
+}
+
+.ui-tabs .ui-tabs-nav .ui-state-default a {
+    font-weight: 900;
+    filter: Shadow(Color=#EBE7E4, Direction=90, Strength=2);
+    text-shadow: #EBE7E4 1px 1px 2px;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1px 16px 11px 8px;
+}
+
+.ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+
+.ui-tabs .ui-tabs-panel {
+    behavior: url("../../media/css/PIE.htc");
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+
+.ui-tabs .ui-tabs-nav {
+  border-bottom: 6px solid #ffa300 !important;
+  margin: 0px 0px 10px 0px !important;
+}
+
+.ui-widget{
+    border:none !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background-image:none;
+}
+
+.ui-datepicker {
+    behavior: url("../../media/css/PIE.htc");
+  /*  padding: .2em .2em 0;*/
+    display: none;
+    border:1px solid #c2c2c2 !important;
+    border-radius:none;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+
+}
+
+.ui-datepicker .ui-datepicker-header {
+    position:relative;
+    padding:.2em 0;
+    behavior: url("../../media/css/PIE.htc");
+    background: linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65%)  repeat scroll 0 0 transparent;
+    -pie-background: linear-gradient(bottom, #CFCFCF 37%, #EBEBEB 65) !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.ui-datepicker .ui-priority-secondary,
+.ui-datepicker .ui-widget-content .ui-priority-secondary,
+.ui-datepicker .ui-widget-header .ui-priority-secondary {
+    background:#FFF5EA !important;
+    font-weight: 800;
+    color: #FFFFFF !important;
+}
+.ui-datepicker .ui-state-highlight{
+    height:14px;
+}
+
+.popup_dialog input, .popup_dialog select, .popup_dialog textarea{
+    width:100%;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    position:absolute;
+    top: 4px;
+    width: 1.8em;
+    height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
+    top: 4px;
+    border: 1px solid #212121 !important;
+}
+.ui-datepicker .ui-datepicker-prev {
+    behavior: url("../../media/css/PIE.htc");
+    -pie-background: linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%) !important;
+    background: linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(bottom, #A3A0A3 9%, #F0F0F0 91%)  repeat scroll 0 0 transparent;
+    height: 20px !important;
+    width: 23px !important;
+    border: 1px solid #A3A0A3;
+    left: 5px;
+}
+.ui-datepicker .ui-datepicker-next {
+    right:5px;
+    height: 20px !important;
+    width: 23px !important;
+    border: 1px solid #A3A0A3;
+    behavior: url("../../media/css/PIE.htc");
+    -pie-background: linear-gradient(bottom, #F0F0F0 9%, #A3A0A3 91%) !important;
+    background: linear-gradient(bottom, #F0F0F0 9%, #A3A0A3 91%)  repeat scroll 0 0 transparent;
+    background: -o-linear-gradient(bottom, #F0F0F0 9%, #A3A0A3 91%)  repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(bottom, #F0F0F0 9%, #A3A0A3 91%) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(bottom, #F0F0F0 9%, #A3A0A3 91%) repeat scroll 0 0 transparent;
+    background: -ms-linear-gradient(bottom, #F0F0F0 9%, #A3A0A3 91%) repeat scroll 0 0 transparent;
+}
+/*.ui-datepicker .ui-datepicker-prev-hover { left:5px; }
+.ui-datepicker .ui-datepicker-next-hover { right:5px; }
+*/
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select { font-size:1em; margin:1px 0; }
+.ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year { width: 49%;}
+.ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+
+.ui-datepicker th {
+    text-align: center;
+    font-weight: 200;
+    background: #CFCFCF;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    border: 0;
+}
+
+.ui-datepicker td { border: 0; padding: 1px; }
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+.ui-datepicker td span.ui-state-hover, .ui-datepicker td a.ui-state-hover {
+    background-color: #FFDB8F;
+    font-weight: 900 !important;
+}
+
+.ui-datepicker.ui-datepicker-multi { width:auto; }
+.ui-datepicker-multi .ui-datepicker-group { float:left; }
+.ui-datepicker-multi .ui-datepicker-group table { width:95%; margin:0 auto .4em; }
+.ui-datepicker-multi-2 .ui-datepicker-group { width:50%; }
+.ui-datepicker-multi-3 .ui-datepicker-group { width:33.3%; }
+.ui-datepicker-multi-4 .ui-datepicker-group { width:25%; }
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width:0; }
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width:0; }
+.ui-datepicker-multi .ui-datepicker-buttonpane { clear:left; }
+.ui-datepicker-row-break { clear:both; width:100%; font-size:0em; }
+
+.ui-datepicker-rtl { direction: rtl; }
+.ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane { clear:right; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
+.ui-datepicker-rtl .ui-datepicker-group { float:right; }
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.ui-datepicker-cover {
+    display: none; /*sorry for IE5*/
+    display/**/: block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}/*
+ * jQuery UI Progressbar 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Progressbar#theming
+ */
+
+.ui-progressbar { height:2em; text-align: left; }
+.ui-progressbar .ui-progressbar-value {margin: -1px; height:100%; }
+
+.ui-datepicker{
+/*    width:400px;*/
+    background:white;
+}
+
+.ui-datepicker .ui-datepicker-prev .ui-icon-circle-triangle-w{
+    background: url('./images/ui-icon-circle-triangle-w.png') no-repeat center 0 0 transparent !important;
+}
+
+.ui-datepicker .ui-datepicker-next .ui-icon-circle-triangle-e{
+    background: url('./images/ui-icon-circle-triangle-e.png') no-repeat center 0 0 transparent !important;
+}
+
+.ui-datepicker .ui-state-default{
+    background:#ebebeb;
+    width:24px;
+    text-align:center;
+    border: none !important;
+    color: #222;
+}
+
+.ui-priority-secondary.ui-state-hover{
+    background: #ffdebb;
+}
+.ui-datepicker-today .ui-state-default{
+    color:#000 !important;
+    background: #fff !important;
+}
+.ui-datepicker .ui-state-active{
+    background-color: #FFDB8F;
+    /*background-image: url("../../img/grid/sel.png") !important;*/
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    height: 15px;
+}
+
+.ui-widget-header{
+    behavior: url("../../media/css/PIE.htc");
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.ui-dialog {
+    position: absolute;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #CCCCCC !important;
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(88, 88, 88, 1);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(88, 88, 88, 1);
+    box-shadow: 1px 1px 7px 1px rgba(88, 88, 88, 1);
+    behavior: url("../../media/css/PIE.htc");
+}
+
+.ui-pseudo-dialog {
+    min-width: 260px;
+    border: 1px solid #FF9900 !important;
+}
+
+.ui-state-hover{
+   /* background: none !important;*/
+    font-weight: normal !important;
+/*    padding:1px !important;*/
+
+}
+th.ui-state-hover{
+    padding:0 2px !important;
+}
+a.ui-state-hover,td.ui-state-hover{
+    border:none !important;
+}
+.ui-tabs-nav .ui-state-hover{
+    padding:0 !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane button.ui-state-hover,
+button.ui-state-hover {
+      border: 1px solid #4B4B4B !important;
+      padding: 0px !important;
+}
+
+.ui-jqgrid-bdiv tr.jqgfirstrow td {
+    border: none !important;
+}
+
+.msg_dialog img.loading_icon {
+    margin: 3% 25%;
+}
+
+.ui-dialog div.loading_icon_large {
+    background: url(../../img/dialog/loading-large.gif) no-repeat center center transparent;
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+
+.ui-dialog #flash div {
+    width: auto !important;
+}
+
+ul.ui-autocomplete {
+    width: auto;
+    border: 1px solid #A3A0A3;
+    behavior: url("../media/css/PIE.htc");
+    background: none no-repeat 0 0 #EEEEEE !important;
+    -webkit-box-shadow: 2px 3px 9px rgba(50, 50, 50, 0.61);
+    -moz-box-shadow:    2px 3px 9px rgba(50, 50, 50, 0.61);
+    box-shadow:         2px 3px 9px rgba(50, 50, 50, 0.61);
+    position:absolute;
+    z-index: 9999999 !important;
+}
+ul.ui-autocomplete li.ui-menu-item a.ui-state-hover {
+    color: #EBEAE6 !important;
+    behavior: url("../media/css/PIE.htc");
+    border: none !important;
+    background: linear-gradient(bottom, #FF3C00, #FF9100) repeat scroll 0 0 transparent !important;
+    background: -o-linear-gradient(bottom, #FF3C00, #FF9100) repeat scroll 0 0 transparent !important;
+    background: -moz-linear-gradient(bottom, #FF3C00, #FF9100) repeat scroll 0 0 transparent !important;
+    background: -webkit-linear-gradient(bottom, #FF3C00, #FF9100) repeat scroll 0 0 transparent !important;
+    background: -ms-linear-gradient(bottom, #FF3C00, #FF9100) repeat scroll 0 0 transparent !important;
+    -pie-background: linear-gradient(bottom, #FF3C00, #FF9100) repeat scroll 0 0 transparent !important;
+    behavior: url("../../media/css/PIE.htc");
+}
+
+.ui-corner-all {
+    behavior: url("../../media/css/PIE.htc");
+    border-radius: 4px;
+}
+
