@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.19, created on 2012-08-29 23:14:16
+<?php /* Smarty version 2.6.19, created on 2012-08-30 13:22:00
          compiled from header_main.tpl */ ?>
 <div id="sitebody">
 
@@ -24,8 +24,6 @@
 							<li class="desktop"><a class = "<?php echo $this->_tpl_vars['mainclasses']['desktop']; ?>
 " href="index.php"><span><?php echo $this->_config[0]['vars']['desktop']; ?>
 </span></a></li>
-                            <li class="back_to_site"><a href="<?php echo $this->_tpl_vars['home_url']; ?>
-"><span>Назад в Домашнюю Бухгалтерию</span></a></li>
 
 							<?php if ($this->_tpl_vars['usergender'] == 'f'): ?>
 							<li class="profil-female"><a class = "<?php echo $this->_tpl_vars['mainclasses']['profil']; ?>
@@ -62,6 +60,8 @@
 
 							<li class="logout"><a href="manageuser.php?action=logout"><span><?php echo $this->_config[0]['vars']['logout']; ?>
 </span></a></li>
+                            <li class="back_to_site"><a href="<?php echo $this->_tpl_vars['home_url']; ?>
+"><span>Назад в Домашнюю Бухгалтерию</span></a></li>
 						</ul>
 					<?php endif; ?>
 				</div> <!-- Right End -->

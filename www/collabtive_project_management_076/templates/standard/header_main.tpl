@@ -18,7 +18,6 @@
 					{if $loggedin == 1}
 						<ul id="mainmenue">
 							<li class="desktop"><a class = "{$mainclasses.desktop}" href="index.php"><span>{#desktop#}</span></a></li>
-                            <li class="back_to_site"><a href="{$home_url}"><span>Назад в Домашнюю Бухгалтерию</span></a></li>
 
 							{if $usergender == "f"}
 							<li class="profil-female"><a class = "{$mainclasses.profil}" href="manageuser.php?action=profile&amp;id={$userid}"><span>{#myaccount#}</span></a></li>
@@ -40,6 +39,7 @@
 
 
 							<li class="logout"><a href="manageuser.php?action=logout"><span>{#logout#}</span></a></li>
+                            <li class="back_to_site"><a href="{$home_url}"><span>Назад в Домашнюю Бухгалтерию</span></a></li>
 						</ul>
 					{/if}
 				</div> <!-- Right End -->

@@ -32,6 +32,7 @@ $template->assign("url", $url);
 $template->assign("languages", $languages);
 $template->assign("myversion", "0.7.6");
 $template->assign("cl_config", CL_CONFIG);
+$template->assign("home_url", $_SERVER['KOHANA_BASE_URL']);
 // Assign globals to all templates
 if (isset($_SESSION["userid"]))
 {

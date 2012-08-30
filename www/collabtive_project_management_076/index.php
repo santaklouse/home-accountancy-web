@@ -20,7 +20,7 @@ $mainclasses = array(
     "profil" => "",
     "admin" => ""
 );
-$template->assign("home_url", $_SERVER['KOHANA_BASE_URL']);
+
 $template->assign("mainclasses", $mainclasses);
 
 $project = new project();

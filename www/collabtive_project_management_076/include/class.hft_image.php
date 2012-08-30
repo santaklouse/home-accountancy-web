@@ -1,5 +1,5 @@
 <?PHP
-#require("hft_image_errors.php"); // here you can include your own language error file
+require("hft_image_errors.php"); // here you can include your own language error file
 
 	//this class works with image
 	class hft_image {
