@@ -1,2 +1,4 @@
-application/cache/*
-application/logs/*
+www/application/cache/*
+www/application/logs/*
+nbproject/*
+*~
