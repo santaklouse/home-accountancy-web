@@ -34,7 +34,14 @@ return array(
                     'lib/inline_alert',
                 ),
             ),
-
+            array(
+                'name' => 'libs',
+                'files' => array(
+                    'lib/loading_icon',
+                    'lib/live_dialog',
+                    'lib/pseudo_dialog',
+                )
+            ),
         ),
     ),
 );

@@ -44,3 +44,11 @@ transition: all .2s linear;
 body > .navbar .brand.current {
     color: #ffffff;
 }
+
+.icon-usa-flag {
+    background: url('../images/icons/usa_flag_16.png') no-repeat !important;
+}
+
+.icon-ru-flag {
+    background: url('../images/icons/ru_flag_16.png') no-repeat !important;
+}

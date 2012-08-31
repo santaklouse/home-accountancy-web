@@ -1,22 +1,30 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 $header_links = array(
-    '' => __('Dashboard'),
-    'admin' => __('Admin dashboard'),
-    'panel' => 'Домашняя бухгалтерия',
+    '' => UTF8::ucfirst(__('dashboard')),
+    'admin' => UTF8::ucfirst(__('admin_dashboard')),
+    'panel' => UTF8::ucfirst(__('home_accounting')),
 );
 $request = Request::current();
 
 $drop_down_menu_links = array(
     array(
-        'link' => 'tasks/',
-        'class' => 'icon-time',
-        'name' => __('tasks'),
-    ),
-    array(
         'link' => 'admin/clear_cache',
         'class' => 'icon-refresh',
         'name' => __('clear cache'),
+    ),
+    array(
+        //separator
+    ),
+    array(
+        'link' => 'translations/',
+        'class' => 'icon-ru-flag',
+        'name' => __('translations'),
+    ),
+    array(
+        'link' => 'tasks/',
+        'class' => 'icon-time',
+        'name' => __('tasks'),
     ),
     array(
         //separator
