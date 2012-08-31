@@ -1,7 +1,7 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 $header_links = array(
-    '' => __('Dashboard'),
+    '' => __('dashboard'),
 );
 $request = Request::current();
 ?>

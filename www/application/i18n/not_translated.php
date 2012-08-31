@@ -58,4 +58,5 @@ return array (
   'save' => '',
   'cancel' => '',
   'test' => '',
+  'clear_cache' => '',
 );

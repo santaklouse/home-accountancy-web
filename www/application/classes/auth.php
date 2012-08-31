@@ -2,6 +2,12 @@
 
 class Auth extends Base_Auth {
 
+    public function authorize(&$user)
+    {
+        Language::set(Model_Language::find($user->language_id));
+        parent::authorize($user);
+    }
+
     public function is_admin()
     {
         return $this->has_role('admin');

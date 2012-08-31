@@ -11,7 +11,7 @@ $drop_down_menu_links = array(
     array(
         'link' => 'admin/clear_cache',
         'class' => 'icon-refresh',
-        'name' => __('clear cache'),
+        'name' => __('clear_cache'),
     ),
     array(
         //separator

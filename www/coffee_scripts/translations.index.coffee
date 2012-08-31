@@ -34,9 +34,9 @@ $ ->
   hide_edit_form = (object)->
     area = object.closest("div.editable-area")
     self = $ 'form.submit_translation', area
-    text = $('textarea[name="old-translation"]', area).text()
-    if ! text
-      text = $('textarea[name="translation"]', area).text()
+    text = $('textarea[name="old-translation"]', area).val()
+    if ! text.trim()
+      text = $('textarea[name="translation"]', area).val()
     self.remove()
     area.append "#{text}<a href=\"#\" class=\"inline_edit\">
       <span class=\"label label-warning\">

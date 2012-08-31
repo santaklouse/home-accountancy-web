@@ -1,8 +1,8 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 $header_links = array(
-    '' => __('Dashboard'),
-    'panel' => 'Домашняя бухгалтерия',
+    '' => UTF8::ucfirst(__('dashboard')),
+    'panel' => UTF8::ucfirst(__('home_accounting')),
 );
 $request = Request::current();
 ?>

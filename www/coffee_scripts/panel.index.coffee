@@ -1,8 +1,5 @@
 
 $ ->
-
-  console.log __('test')
-
   date_alert = ()->
     $.get "#{url_base}/alerts/date_format", {}, (html)->
       $("body > .container").prepend html
