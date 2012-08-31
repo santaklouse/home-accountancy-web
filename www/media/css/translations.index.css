@@ -3,12 +3,18 @@ table.translation{
     width: 100%;
     margin: 10px 0;
 }
-table.translation,
+
 table.translation th,
 table.translation td {
     border: 1px solid #333;
     vertical-align: top;
     padding: 3px;
+    border-left: none;
+    border-top: none;
+}
+
+table.translation {
+    border-left: 1px solid #333;
 }
 
 table.translation th {

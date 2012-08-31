@@ -367,22 +367,22 @@ button.ui-button {
     text-align: center;
     position: relative;
     width: auto;
-    color:black !important;
+    color: #000;
     text-transform:uppercase;
-    padding: 0 !important;
+    padding: 0;
     margin: .5em .4em .5em 0;
     cursor: pointer;
     font-weight: 900 !important;
     filter: Shadow(Color=#FFFFFF, Direction=90, Strength=2);
     text-shadow: #FFFFFF 1px 1px 2px;
-    border: 1px solid #9C9C9C !important;
+    border: 1px solid #9C9C9C;
     behavior: url("../../media/css/PIE.htc");
-    background: linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
-    background: -o-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
-    background: -moz-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
-    background: -webkit-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
-    background: -ms-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
-    -pie-background: linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB !important;
+    background: linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB ;
+    background: -o-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB ;
+    background: -moz-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB ;
+    background: -webkit-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB ;
+    background: -ms-linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB ;
+    -pie-background: linear-gradient(bottom, #BBBBBB 44%, #DEDEDE 67%, #F1F1F1 84%) repeat scroll 0 0 #BBBBBB ;
 }
 
 .ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }

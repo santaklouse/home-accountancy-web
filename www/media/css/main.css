@@ -59,3 +59,16 @@ a.inline_remove {
     margin: 5px;
     text-decoration: none;
 }
+
+.ui-dialog .ui-dialog-buttonpane button,
+.ui-dialog-buttonpane button, button.ui-button {
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 2px 8px !important;
+
+}
+
+.ui-dialog .ui-dialog-buttonpane button:hover,
+.ui-dialog-buttonpane button, button.ui-button:hover {
+    border: 1px solid #1B1B1B;
+}

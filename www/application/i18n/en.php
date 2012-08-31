@@ -36,4 +36,12 @@ return array (
   'go' => 'go',
   'go_to_today' => 'go to today',
   'enter_the_date' => 'enter the date',
+  'yes' => 'yes',
+  'your_login' => 'your login',
+  'no' => 'no',
+  'are_you_sure_you_want_to_remove_this_record_?' => 'are you sure you want to remove this record?',
+  'remove_record_?' => 'remove record?',
+  'password' => 'password',
+  'english' => 'english',
+  'russian' => 'russian',
 );

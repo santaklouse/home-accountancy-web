@@ -94,8 +94,8 @@ $ ->
 
   $.fn.live_confirm = (options)->
     defaults = {
-      title: 'remove_record',
-      message: 'are_you_sure_you_want_to_remove_this_record_?',
+      title: __('remove_record_?'),
+      message: __('are_you_sure_you_want_to_remove_this_record_?'),
       width: 300,
       modal: true,
       confirm: null,
@@ -119,8 +119,8 @@ $ ->
       title: options.title,
       buttons: [
         {
-          title: 'yes',
-          text: 'yes',
+          title: __('yes'),
+          text: __('yes'),
           click: ()->
             self = $(this)
             $.ajax {
@@ -142,8 +142,8 @@ $ ->
             },
         },
         {
-          title: 'no',
-          text: 'no',
+          title: __('no'),
+          text: __('no'),
           click: ()->
             options.cancel(dialog_wrapper) if options.cancel
             $(this).dialog 'close'

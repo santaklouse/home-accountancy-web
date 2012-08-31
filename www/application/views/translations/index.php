@@ -29,7 +29,7 @@ echo "<br/>";
             <?php
             foreach ($languages as $language) {
                 echo '<th>';
-                echo $language->full_name;
+                echo UTF8::ucfirst(__($language->full_name));
                 echo '</th>';
             } ?>
         </tr>

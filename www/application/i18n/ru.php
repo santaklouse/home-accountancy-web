@@ -35,4 +35,12 @@ return array (
   'go' => 'поехали',
   'go_to_today' => 'Перейти к сегодняшнему дню',
   'enter_the_date' => 'введите дату',
+  'yes' => 'да',
+  'your_login' => 'ваш логин',
+  'no' => 'нет',
+  'are_you_sure_you_want_to_remove_this_record_?' => 'вы уверены, что хотите удалить эту запись?',
+  'remove_record_?' => 'удалить запись?',
+  'password' => 'пароль',
+  'english' => 'английский',
+  'russian' => 'русский',
 );

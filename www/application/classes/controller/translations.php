@@ -126,11 +126,6 @@ class Controller_Translations extends Controller_Core {
         $this->render_nothing();
     }
 
-    public function get_warnings($class_name, $translations_links_array, $id = null)
-    {
-
-    }
-
     public static function item_warnings($warnings_array, $item, $class_name)
     {
         $result = array();
