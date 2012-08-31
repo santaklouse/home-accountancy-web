@@ -11,12 +11,12 @@ echo '<table class="calendar">';
                 '&nbsp;',array(
                     'class' => 'prev_month',
                     'id' => 'change_month',
-                    'title' => UTF8::ucfirst(__('previous_month')),
+                    'title' => UTF8::ucfirst('previous_month'),
                 )
             );
         echo '</span>';
         echo '<b>';
-            echo UTF8::ucfirst(__( strtolower(date('F', $time ))));
+            echo UTF8::ucfirst(strtolower(date('F', $time )));
             echo '&nbsp;';
             echo date('Y', $time );
         echo '</b>';
@@ -28,7 +28,7 @@ echo '<table class="calendar">';
                 array(
                     'class' => 'next_month',
                     'id' => 'change_month',
-                    'title' => UTF8::ucfirst(__('next_month'))
+                    'title' => UTF8::ucfirst('next_month')
                 )
             );
         echo '</span>';
@@ -37,7 +37,7 @@ echo '<table class="calendar">';
         foreach (Date::week_days($date_start) as $day_name)
         {
             echo '<th>';
-                echo UTF8::ucfirst(__(strtolower($day_name)));
+                echo UTF8::ucfirst(strtolower($day_name));
             echo '</th>';
         }
     echo '</thead>';
@@ -80,10 +80,12 @@ echo '<table class="calendar">';
 
             $date = date('Y-m-d', $day);
 
-            echo '<td title="Click for details" class="'.$class.'" data-date="'. $date .'">';
+            echo '<td title="'.UTF8::ucfirst('click_for_details').'" class="'.$class.'" data-date="'. $date .'">';
             if (date('j n Y', time()) == date('j n Y', $day))
             {
-                echo '<span id="today-label" class="label label-success">today</span>';
+                echo '<span id="today-label" class="label label-success">';
+                    echo UTF8::ucfirst('today');
+                echo '</span>';
             }
             echo '<div class="date" >';
                     echo '<span title="'. $date .'">';

@@ -2,12 +2,12 @@
 
 
 <h3>
-    <?php echo UTF8::ucfirst(__('source_code_translations')) ?>
+    <?php echo UTF8::ucfirst('source_code_translations') ?>
 </h3>
 <hr/>
 <?php
 $button =  '<button class="btn btn-success" type="button">';
-$button .= '<i class="icon-refresh"></i>&nbsp;'.__('load_translations_from_sources');
+$button .= '<i class="icon-refresh"></i>&nbsp;'.UTF8::ucfirst('load_translations_from_sources');
 $button .= '</button>';
     echo HTML::anchor(
         "translations/parse_sources",
@@ -24,12 +24,12 @@ echo "<br/>";
     <thead>
         <tr>
             <th>
-              <?php echo UTF8::ucfirst(__('identifier')) ?>
+              <?php echo UTF8::ucfirst('identifier') ?>
             </th>
             <?php
             foreach ($languages as $language) {
                 echo '<th>';
-                echo UTF8::ucfirst(__($language->full_name));
+                echo UTF8::ucfirst($language->full_name);
                 echo '</th>';
             } ?>
         </tr>
@@ -51,7 +51,7 @@ echo "<br/>";
                     echo '<div class="editable-area" data-identifier="'.$identifier.'" data-language-id="'.$language->id.'">';
                       echo Arr::get($translation_data, $language->name);
 
-                      echo '<a class="inline_edit" href="#"><span class="label label-warning"><i class="icon-pencil"></i> '.UTF8::ucfirst(__('edit')).'</span></a>';
+                      echo '<a class="inline_edit" href="#"><span class="label label-warning"><i class="icon-pencil"></i> '.UTF8::ucfirst('edit').'</span></a>';
                   echo '</div>';
                   echo '</td>';
               }

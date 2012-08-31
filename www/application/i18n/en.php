@@ -8,7 +8,6 @@ return array (
   'load_translations_from_sources' => 'load translations from sources',
   'home_accounting' => 'home accounting',
   'clear_cache' => 'clear cache',
-  'test' => 'test',
   'back' => 'back',
   'email' => 'email',
   'dashboard' => 'dashboard',
@@ -44,4 +43,5 @@ return array (
   'password' => 'password',
   'english' => 'english',
   'russian' => 'russian',
+  'click_for_details' => 'click for details',
 );

@@ -8,7 +8,6 @@ return array (
   'load_translations_from_sources' => 'загрузить переводы из исходников',
   'home_accounting' => 'Домашняя бухгалтерия',
   'clear_cache' => 'очистить кэш',
-  'test' => 'тест',
   'back' => 'назад',
   'email' => 'почта',
   'dashboard' => 'dashboard',
@@ -43,4 +42,5 @@ return array (
   'password' => 'пароль',
   'english' => 'английский',
   'russian' => 'русский',
+  'click_for_details' => 'нажмите для подробностей',
 );
