@@ -13,7 +13,7 @@ return array (
   'dashboard' => 'dashboard',
   'login' => 'login',
   'register' => 'register',
-  'about_us' => 'about_us',
+  'about_us' => 'about us',
   'edit' => 'edit',
   'identifier' => 'identifier',
   'removed' => 'removed',

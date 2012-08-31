@@ -16,7 +16,6 @@ return array (
   'identifier' => '',
   'edit' => '',
   'home' => '',
-  'about_us' => '',
   'register' => '',
   'login' => '',
   'dashboard' => '',
