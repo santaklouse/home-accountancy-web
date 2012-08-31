@@ -3,7 +3,6 @@ $ ->
   date_alert = ()->
     $.get "#{url_base}/alerts/date_format", {}, (html)->
       $("body > .container").prepend html
-    console.log 'alert'
 
   check_date_format = (date)->
     reg_expr = [
