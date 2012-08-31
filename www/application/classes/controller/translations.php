@@ -103,6 +103,26 @@ class Controller_Translations extends Controller_Core {
 
     public function action_destroy()
     {
+        $identifier = trim($this->request->param('id'));
+        $not_translated = include Kohana::find_file('/i18n', 'not_translated', 'php');
+        $in_not_translated = isset($not_translated[$identifier]);
+
+        if ($in_not_translated)
+        {
+            unset($not_translated[$identifier]);
+        }
+        $this->save_php_file($not_translated, 'not_translated');
+        foreach ($this->languages as $language)
+        {
+            $translated = include Kohana::find_file('/i18n', $language->name, 'php');
+            $in_translated = Arr::get($translated, $identifier);
+            if ($in_translated)
+            {
+                unset($translated[$identifier]);
+            }
+            $this->save_php_file($translated, $language->name);
+        }
+        $this->generate_js_file();
         $this->render_nothing();
     }
 
@@ -181,7 +201,7 @@ class Controller_Translations extends Controller_Core {
         $translated = include Kohana::find_file('/i18n', $language->name, 'php');
         $not_translated = include Kohana::find_file('/i18n', 'not_translated', 'php');
 
-        $in_not_translated = Arr::get($not_translated, $identifier);
+        $in_not_translated = isset($not_translated[$identifier]);
 
         if ($in_not_translated)
         {
@@ -207,7 +227,7 @@ class Controller_Translations extends Controller_Core {
         foreach ($structure as $identifier)
         {
             $is_translated = Arr::get($translated, $identifier);
-            $in_not_translated = Arr::get($not_translated, $identifier);
+            $in_not_translated = isset($not_translated[$identifier]);
             if ( ! $is_translated && ! $in_not_translated)
             {
                 $not_translated[$identifier] = '';

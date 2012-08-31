@@ -34,5 +34,8 @@ foreach ($media->scripts() as $file) {
 }
 echo $media->inline_script();
 ?>
+<script>
+    I18n.locale = '<?php echo Language::get()->name ?>';
+</script>
 </head>
     <body>

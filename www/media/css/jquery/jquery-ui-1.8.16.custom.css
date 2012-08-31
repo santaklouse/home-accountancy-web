@@ -28,14 +28,17 @@
 }
 
 .ui-dialog-titlebar {
-    background: linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+background-color: #1B1B1B;
+    background-image: -moz-linear-gradient(center top , #222222, #111111);
+    background-repeat: repeat-x;
+/*    background: linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
     background: -o-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
     background: -moz-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
     background: -webkit-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
     background: -ms-linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
-    -pie-background: linear-gradient(bottom, #FF8400 42%, #FF8400 100%);
+    -pie-background: linear-gradient(bottom, #FF8400 42%, #FF8400 100%);*/
     color: #fff;
-    border-top: 1px solid #FF8400 !important;
+    border-top: 1px solid #252525 !important;
     height: 17px !important;
     behavior: url("../../media/css/PIE.htc");
 }
@@ -53,7 +56,7 @@
 }
 
 .ui-icon-closethick{
-  background: url(../../img/dialog/ui-dialog-close.png) no-repeat 0 0 transparent !important;
+  background: url(../../images/icons/ui-dialog-close.png) no-repeat 0 0 transparent !important;
 }
 
 

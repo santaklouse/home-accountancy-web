@@ -14,21 +14,25 @@ $ ->
     html += "
     <textarea class=\"hidden\" name=\"old-translation\">#{parent.html()}</textarea>
     <textarea name=\"translation\">#{parent.html()}</textarea>
-    <input type=\"submit\" value=\"#{__('save')}\"/>
+    <span class=\"label label-success save\"><i class=\"icon-ok\"></i> #{__('save')} </span>
     <span class=\"label label-inverse cancel\"><i class=\"icon-minus-sign\"></i> #{__('cancel')} </span>
     </form>"
     parent.html html
     $('textarea[name="translation"]', parent).resizable()
 
+  $("span.save").live "click", ()->
+    $(this).closest("form").submit()
+
   $('form.submit_translation').live 'submit', (e)->
     self = $(this)
     area = self.closest "div.editable-area"
-    self.ajaxSubmit( {
+    self.ajaxSubmit {
       success: ->
         hide_edit_form self
         area.append "<span class=\"ok\">ok</span>"
-        area.find('span.ok').fadeOut(2000)
-    })
+        area.find('span.ok').fadeOut 900, ()->
+          $(this).remove()
+    }
     return false
 
   hide_edit_form = (object)->
@@ -41,7 +45,7 @@ $ ->
     area.append "#{text}<a href=\"#\" class=\"inline_edit\">
       <span class=\"label label-warning\">
         <i class=\"icon-pencil\"></i>
-        Edit
+        #{__('edit')}
       </span>
     </a>"
 

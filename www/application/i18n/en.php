@@ -30,4 +30,10 @@ return array (
   'next_month' => 'next month',
   'no_parent' => 'no parent',
   'source_code_translations' => 'source code translations',
+  'account' => 'account',
+  'settings' => 'settings',
+  'logout' => 'logout',
+  'go' => 'go',
+  'go_to_today' => 'go to today',
+  'enter_the_date' => 'enter the date',
 );

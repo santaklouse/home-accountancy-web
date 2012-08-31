@@ -52,3 +52,10 @@ body > .navbar .brand.current {
 .icon-ru-flag {
     background: url('../images/icons/ru_flag_16.png') no-repeat !important;
 }
+
+a.inline_edit,
+a.inline_remove {
+    float: right;
+    margin: 5px;
+    text-decoration: none;
+}

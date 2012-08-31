@@ -1,7 +1,7 @@
 <?php defined('SYSPATH') or die('No direct script access.'); 
 return array (
   'save' => 'сохранить',
-  'cancel' => 'cancel',
+  'cancel' => 'отмена',
   'admin_dashboard' => 'Админка',
   'operation_completed' => 'операция завершена',
   'not_defined' => 'не определен',
@@ -29,4 +29,10 @@ return array (
   'next_month' => 'следующий месяц',
   'no_parent' => 'нет родителя',
   'source_code_translations' => 'Переводы исходного кода',
+  'account' => 'аккаунт',
+  'settings' => 'настройки',
+  'logout' => 'выход',
+  'go' => 'поехали',
+  'go_to_today' => 'Перейти к сегодняшнему дню',
+  'enter_the_date' => 'введите дату',
 );

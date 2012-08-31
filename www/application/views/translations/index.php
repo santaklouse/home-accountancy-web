@@ -36,37 +36,21 @@ echo "<br/>";
       </thead>
       <tbody>
           <?php
+          ksort($translations);
           foreach ($translations as $identifier => $translation_data)
           {
               echo '<tr>';
                 echo '<td class="identifier" title="'.$identifier.'">';
 
-//              echo URL::link_to('translations/destroy/'.$plain_translation->id,
-//                  '',
-//                  array(
-//                      'class' => 'inline_remove',
-//                      'data-id' => $plain_translation->id,
-//                      'title' => UTF8::ucfirst(__('remove')),
-//                  )
-//              );
-              echo '<div>';
                   echo $identifier;
-              echo '</div>';
+                  echo '<a class="inline_remove" href="'.URL::site('translations/destroy/'.$identifier).'"><span class="inline-remove label label-important"><i class="icon-remove"></i></span></a>';
               echo '</td>';
               foreach($languages as $language)
               {
                   echo '<td>';
                     echo '<div class="editable-area" data-identifier="'.$identifier.'" data-language-id="'.$language->id.'">';
-
-                      $key = implode(
-                          '.',
-                          array(
-                              $identifier,
-                              $language->id,
-                              'translation',
-                          )
-                      );
                       echo Arr::get($translation_data, $language->name);
+
                       echo '<a class="inline_edit" href="#"><span class="label label-warning"><i class="icon-pencil"></i> '.UTF8::ucfirst(__('edit')).'</span></a>';
                   echo '</div>';
                   echo '</td>';
