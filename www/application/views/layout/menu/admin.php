@@ -11,7 +11,7 @@ $drop_down_menu_links = array(
     array(
         'link' => 'admin/clear_cache',
         'class' => 'icon-refresh',
-        'name' => __('clear_cache'),
+        'name' => UTF8::ucfirst('clear_cache'),
     ),
     array(
         //separator
@@ -19,12 +19,12 @@ $drop_down_menu_links = array(
     array(
         'link' => 'translations/',
         'class' => 'icon-ru-flag',
-        'name' => __('translations'),
+        'name' => UTF8::ucfirst('translations'),
     ),
     array(
         'link' => 'tasks/',
         'class' => 'icon-time',
-        'name' => __('tasks'),
+        'name' => UTF8::ucfirst('tasks'),
     ),
     array(
         //separator
@@ -32,12 +32,12 @@ $drop_down_menu_links = array(
     array(
         'link' => 'users/account_info',
         'class' => 'icon-user',
-        'name' => __('account'),
+        'name' => UTF8::ucfirst('account'),
     ),
     array(
         'link' => 'users/settings',
         'class' => 'icon-wrench',
-        'name' => __('settings'),
+        'name' => UTF8::ucfirst('settings'),
     ),
     array(
         //separator
@@ -45,7 +45,7 @@ $drop_down_menu_links = array(
     array(
         'link' => 'users/logout',
         'class' => 'icon-off',
-        'name' => __('logout'),
+        'name' => UTF8::ucfirst('logout'),
     ),
 );
 

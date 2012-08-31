@@ -21,6 +21,10 @@ class Helper_Url {
         {
             $url .= '/index';
         }
+        if ($url == '/index')
+        {
+            $url = 'welcome/index';
+        }
         return $current_path == $url;
     }
 

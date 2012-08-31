@@ -24,7 +24,6 @@ return array (
   'access_deny' => 'access deny',
   'tasks' => 'tasks',
   'translations' => 'translations',
-  'clear cache' => '',
   'home' => 'home',
   'next_month' => 'next month',
   'no_parent' => 'no parent',
@@ -44,4 +43,7 @@ return array (
   'english' => 'english',
   'russian' => 'russian',
   'click_for_details' => 'click for details',
+  'email_address' => 'email address',
+  'password_confirmation' => 'password confirmation',
+  'valid_email_adrress' => 'valid email adrress',
 );

@@ -43,4 +43,7 @@ return array (
   'english' => 'английский',
   'russian' => 'русский',
   'click_for_details' => 'нажмите для подробностей',
+  'email_address' => 'email адрес',
+  'password_confirmation' => 'подтверждение пароля',
+  'valid_email_adrress' => 'валидный email адрес',
 );
