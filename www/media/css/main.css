@@ -72,3 +72,27 @@ a.inline_remove {
 .ui-dialog-buttonpane button, button.ui-button:hover {
     border: 1px solid #1B1B1B;
 }
+
+.languages-container {
+    line-height: 40px;
+}
+
+.change_language {
+
+}
+
+.change_language.en,
+.change_language.ru {
+    width: 16px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.change_language.en {
+    background: url('../images/icons/uk_flag_16.png') no-repeat !important;
+}
+
+.change_language.ru {
+    background: url('../images/icons/ru_flag_16.png') no-repeat !important;
+}

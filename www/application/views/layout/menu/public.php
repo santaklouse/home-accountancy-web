@@ -26,7 +26,11 @@ $request = Request::current();
             }
             ?>
             <div class="nav-collapse">
+
                 <ul class="nav pull-right">
+                <div class="languages-container left">
+                    <?php echo Helper_Language::selector();?>
+                </div>
                     <li class="active"><a href="<?echo URL::site();?>"><?php echo __('home');?></a></li>
                     <li><?php
                         echo Html::anchor(
