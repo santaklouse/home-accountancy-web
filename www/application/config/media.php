@@ -26,6 +26,9 @@ return array(
             'jquery/jquery.min',
             'jquery/jquery-ui-1.8.16.custom.min',
             'jquery/jquery.form.plugin',
+            'translations/translations',
+            'lib/i18n',
+            'lib/translations',
             'bootstrap/bootstrap.min',
             array(
                 'name' => 'ui_lib',
