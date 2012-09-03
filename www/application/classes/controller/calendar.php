@@ -21,7 +21,7 @@ class Controller_Calendar extends Controller_Core {
 
         if (($year > 2000 && $year < 2099) &&
             ($mouth > 0 && $mouth < 13) &&
-            ($day > 1 && $day < 32))
+            ($day > 0 && $day < 32))
             return TRUE;
 
         return FALSE;

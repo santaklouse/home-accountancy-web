@@ -23,6 +23,7 @@ $ ->
   $("#go-to-date").on "click", ()->
     date = $('input' ,$(this).parent()).val()
     date = date.trim()
+    return if ! date
     return if ! check_date_format date
     $(".dateformat-alert").remove()
     url = "#{url_base}calendar/?date=#{date}"

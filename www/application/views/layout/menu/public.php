@@ -8,22 +8,22 @@ $rightside_header_links = array(
     array(
         'link' => '',
         'class' => '',
-        'name' => UTF8::ucfirst('home'),
+        'name' => UTF8::ucfirst(__('home')),
     ),
     array(
         'link' => 'welcome/about_us',
         'class' => '',
-        'name' => UTF8::ucfirst('about_us'),
+        'name' => UTF8::ucfirst(__('about_us')),
     ),
     array(
         'link' => 'users/register',
         'class' => '',
-        'name' => UTF8::ucfirst('register'),
+        'name' => UTF8::ucfirst(__('register')),
     ),
     array(
         'link' => 'users/login',
         'class' => '',
-        'name' => UTF8::ucfirst('login'),
+        'name' => UTF8::ucfirst(__('login')),
     ),
 );
 
@@ -59,7 +59,7 @@ $request = Request::current();
                         $request = Request::current();
                         foreach ($rightside_header_links as $data)
                         {
-                            $name = UTF8::ucfirst(Arr::get($data, 'name'));
+                            $name = UTF8::ucfirst(__(Arr::get($data, 'name')));
                             $class = Arr::get($data, 'class', '');
                             $uri = Arr::get($data, 'link');
                             if (Helper_Url::current_url($request, $uri))

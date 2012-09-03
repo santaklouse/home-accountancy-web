@@ -1,9 +1,9 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 $header_links = array(
-    '' => UTF8::ucfirst('dashboard'),
-    'admin' => UTF8::ucfirst('admin_dashboard'),
-    'panel' => UTF8::ucfirst('home_accounting'),
+    '' => UTF8::ucfirst(__('dashboard')),
+    'admin' => UTF8::ucfirst(__('admin_dashboard')),
+    'panel' => UTF8::ucfirst(__('home_accounting')),
 );
 $request = Request::current();
 
@@ -11,7 +11,7 @@ $drop_down_menu_links = array(
     array(
         'link' => 'admin/clear_cache',
         'class' => 'icon-refresh',
-        'name' => UTF8::ucfirst('clear_cache'),
+        'name' => UTF8::ucfirst(__('clear_cache')),
     ),
     array(
         //separator
@@ -19,12 +19,12 @@ $drop_down_menu_links = array(
     array(
         'link' => 'translations/',
         'class' => 'icon-ru-flag',
-        'name' => UTF8::ucfirst('translations'),
+        'name' => UTF8::ucfirst(__('translations')),
     ),
     array(
         'link' => 'tasks/',
         'class' => 'icon-time',
-        'name' => UTF8::ucfirst('tasks'),
+        'name' => UTF8::ucfirst(__('tasks')),
     ),
     array(
         //separator
@@ -32,12 +32,12 @@ $drop_down_menu_links = array(
     array(
         'link' => 'users/account_info',
         'class' => 'icon-user',
-        'name' => UTF8::ucfirst('account'),
+        'name' => UTF8::ucfirst(__('account')),
     ),
     array(
         'link' => 'users/settings',
         'class' => 'icon-wrench',
-        'name' => UTF8::ucfirst('settings'),
+        'name' => UTF8::ucfirst(__('settings')),
     ),
     array(
         //separator
@@ -45,7 +45,7 @@ $drop_down_menu_links = array(
     array(
         'link' => 'users/logout',
         'class' => 'icon-off',
-        'name' => UTF8::ucfirst('logout'),
+        'name' => UTF8::ucfirst(__('logout')),
     ),
 );
 
@@ -80,7 +80,7 @@ $drop_down_menu_links = array(
                                     echo '<li class="divider"></li>';
                                     continue;
                                 }
-                                $name = UTF8::ucfirst(Arr::get($data, 'name'));
+                                $name = Arr::get($data, 'name');
                                 echo '<li>';
                                     echo '<a href="'.URL::site(Arr::get($data, 'link')).'">';
                                         echo '<i class="'.Arr::get($data, 'class').'"></i>';

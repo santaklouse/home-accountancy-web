@@ -52,9 +52,11 @@ return array (
   'go_to_today' => '',
   'enter_the_date' => '',
   'coffescript_compiler_output_for :file : :output' => '',
-  'today' => '',
   'already_exists' => '',
   'log_in' => '',
   'valid_email_address' => '',
   'forgot_password_restore' => '',
+  'move_not_translated_up' => '',
+  'translated' => '',
+  'not_translated' => '',
 );

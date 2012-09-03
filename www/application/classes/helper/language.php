@@ -8,7 +8,7 @@ class Helper_Language {
         $result = '';
         foreach ($all_languages as $language)
         {
-            $href = URL::site('user_session/change_language/'.$language->name);
+            $href = URL::site('users_session/change_language/'.$language->name);
             $result .= HTML::anchor($href, '', array(
                 'class' => 'change_language '.$language->name,
             ));
