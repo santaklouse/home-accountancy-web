@@ -1,0 +1,2 @@
+
+(function(){$(function(){return $(".btn-group .btn").on("click",function(){var language_id;language_id=$(this).data("id");$(".btn-group .languages-rgroup").each(function(){return $(this).removeAttr("checked");});return $(".btn-group .languages-rgroup[value=\""+language_id+"\"]").attr("checked",'checked');});});}).call(this);
