@@ -5,3 +5,9 @@ After clone you must create several catalogs:
 1. www/collabtive_project_management_076/templates_c/
 2. www/application/cache
 3  www/application/logs
+
+
+...and init submodules
+
+  git submodule init
+  git submodule update

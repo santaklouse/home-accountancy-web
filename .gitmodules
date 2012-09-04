@@ -1,0 +1,3 @@
+[submodule "modules/Kohana-my-base"]
+	path = modules/Kohana-my-base
+	url = git@github.com:pussbb/Kohana-my-base.git
