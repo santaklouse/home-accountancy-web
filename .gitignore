@@ -2,4 +2,5 @@ www/collabtive_project_management_076/templates_c/*
 www/application/cache/*
 www/application/logs/*
 nbproject/*
+.idea/*
 *~

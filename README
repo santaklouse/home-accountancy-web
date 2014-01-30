@@ -11,3 +11,5 @@ After clone you must create several catalogs:
 
   git submodule init
   git submodule update
+
+...and after this please install node lessc (for Ubuntu: apt-get install node-less)

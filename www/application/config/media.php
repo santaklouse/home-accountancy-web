@@ -30,21 +30,9 @@ return array(
             'lib/i18n',
             'lib/translations',
             'bootstrap/bootstrap.min',
-            array(
-                'name' => 'ui_lib',
-                'files' => array(
-                    'lib/pseudo_ajax_load_progress',
-                    'lib/inline_alert',
-                ),
-            ),
-            array(
-                'name' => 'libs',
-                'files' => array(
-                    'lib/loading_icon',
-                    'lib/live_dialog',
-                    'lib/pseudo_dialog',
-                )
-            ),
+            'lib/pseudo_ajax_load_progress',
+            'lib/inline_alert',
+            'lib/loading_icon',
         ),
     ),
 );

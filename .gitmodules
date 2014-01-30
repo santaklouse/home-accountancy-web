@@ -1,3 +1,6 @@
 [submodule "modules/Kohana-my-base"]
 	path = modules/Kohana-my-base
 	url = git@github.com:pussbb/Kohana-my-base.git
+[submodule "modules/kohana-3.3-mysqli"]
+	path = modules/kohana-3.3-mysqli
+	url = https://github.com/tomlankhorst/kohana-3.3-mysqli.git
