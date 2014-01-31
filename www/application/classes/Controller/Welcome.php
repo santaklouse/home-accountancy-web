@@ -4,14 +4,8 @@ class Controller_Welcome extends Controller_Core {
 
     public function action_index()
     {
-    }
-
-    public function action_about_us()
-    {
-    }
-
-    public function action_contact()
-    {
+        //detect view type
+        //get data for current user and current view type
     }
 
 }

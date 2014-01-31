@@ -8,7 +8,6 @@ class Controller_Admin extends Controller_Core {
     {
         parent::before();
         $this->view->user = $this->user = Auth::instance()->current_user();
-
     }
 
     public function action_index()
