@@ -12,4 +12,6 @@ After clone you must create several catalogs:
   git submodule init
   git submodule update
 
-...and after this please install node lessc (for Ubuntu: apt-get install node-less)
+...and after this please install node lessc and coffee script compiler (for Ubuntu: apt-get install node-less coffeescript)
+
+and you should create database "home_accounting" and import database scheme from "sql/home_accounting.sql"
